@@ -595,6 +595,54 @@ Transform:
   - {fileID: 425805627}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &997731433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 997731435}
+  - component: {fileID: 997731434}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &997731434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997731433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6313e6536d9d45a478c73753db2b751d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalPrefabs:
+  - {fileID: 3318959743091907422, guid: 6f179bf7158b35649a2a8a167052a6a0, type: 3}
+  - {fileID: 7186137655460974650, guid: a76dfc09913c58445a703fbe145aa5ee, type: 3}
+  - {fileID: 3163390306826421150, guid: 2fb7a7c1645d62a4bb06278da70f0c48, type: 3}
+--- !u!4 &997731435
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997731433}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.094898, y: 9.375779, z: 8.507}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1590138454
 GameObject:
   m_ObjectHideFlags: 0
@@ -803,6 +851,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 894835329767869742, guid: 6f179bf7158b35649a2a8a167052a6a0, type: 3}
+      propertyPath: speed
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 3318959743091907422, guid: 6f179bf7158b35649a2a8a167052a6a0, type: 3}
       propertyPath: m_Name
       value: Dog_BorderCollie_01
@@ -900,6 +952,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5962572895356352540, guid: a76dfc09913c58445a703fbe145aa5ee, type: 3}
+      propertyPath: speed
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 7186137655460974650, guid: a76dfc09913c58445a703fbe145aa5ee, type: 3}
       propertyPath: m_Name
       value: Dog_Doberman_01
@@ -921,3 +977,4 @@ SceneRoots:
   - {fileID: 8421645176611825577}
   - {fileID: 8937949274616724659}
   - {fileID: 7295290849371386007}
+  - {fileID: 997731435}
