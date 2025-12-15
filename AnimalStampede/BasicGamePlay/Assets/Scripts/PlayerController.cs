@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+        // Stop the player from running out of the screen
     {
         if (transform.position.x < -xRange)
         {
@@ -25,6 +26,8 @@ public class PlayerController : MonoBehaviour
         {
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z); 
         }
+
+        //Moving the player left & right
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
 

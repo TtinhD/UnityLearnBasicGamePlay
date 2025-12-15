@@ -448,7 +448,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 45
-  orthographic: 0
+  orthographic: 1
   orthographic size: 10
   m_Depth: -1
   m_CullingMask:
@@ -535,32 +535,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 100046, guid: 3cf7f489270aac84fb12901330960a5b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 934072121}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3cf7f489270aac84fb12901330960a5b, type: 3}
---- !u!1 &934072120 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100046, guid: 3cf7f489270aac84fb12901330960a5b, type: 3}
-  m_PrefabInstance: {fileID: 862011656}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &934072121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 934072120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3685b82fc2055e4a97c78869ae23ea3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  horizontalInput: 0
-  speed: 10
-  xRange: 10
-  ProjectilePrefab: {fileID: 7505243575833375859, guid: 59d0fc2cd8191da44a6b061e37fa6b38, type: 3}
 --- !u!1 &992285705
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,10 +827,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 894835329767869742, guid: 6f179bf7158b35649a2a8a167052a6a0, type: 3}
-      propertyPath: speed
-      value: 14
-      objectReference: {fileID: 0}
     - target: {fileID: 3318959743091907422, guid: 6f179bf7158b35649a2a8a167052a6a0, type: 3}
       propertyPath: m_Name
       value: Dog_BorderCollie_01
@@ -951,10 +923,6 @@ PrefabInstance:
     - target: {fileID: 520564642943567480, guid: a76dfc09913c58445a703fbe145aa5ee, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5962572895356352540, guid: a76dfc09913c58445a703fbe145aa5ee, type: 3}
-      propertyPath: speed
-      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 7186137655460974650, guid: a76dfc09913c58445a703fbe145aa5ee, type: 3}
       propertyPath: m_Name
